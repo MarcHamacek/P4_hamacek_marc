@@ -39,3 +39,10 @@ ul {
     color: #000000!important;
     font-size: 16px;
 }
+
+@media all and (max-width: 760px)
+{
+    .pic-square {
+        margin-top: 40px;
+    }
+}
