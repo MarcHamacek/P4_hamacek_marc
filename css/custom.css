@@ -40,9 +40,27 @@ ul {
     font-size: 16px;
 }
 
+
 @media all and (max-width: 760px)
 {
     .pic-square {
         margin-top: 40px;
     }
+
+    .bloc .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+.d-bloc .a-btn, .d-bloc .navbar a, .d-bloc .navbar-brand, .d-bloc a .icon-sm, .d-bloc a .icon-md, .d-bloc a .icon-lg, .d-bloc a .icon-xl, .d-bloc h1 a, .d-bloc h2 a, .d-bloc h3 a, .d-bloc h4 a, .d-bloc h5 a, .d-bloc h6 a, .d-bloc p a {
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.d-bloc .a-btn:hover, .d-bloc .navbar a:hover, .d-bloc .navbar-brand:hover, .d-bloc a .icon-sm:hover, .d-bloc a .icon-md:hover, .d-bloc a .icon-lg:hover, .d-bloc a .icon-xl:hover, .d-bloc h1 a:hover, .d-bloc h2 a:hover, .d-bloc h3 a:hover, .d-bloc h4 a:hover, .d-bloc h5 a:hover, .d-bloc h6 a:hover, .d-bloc p a:hover {
+    color: rgba(0, 0, 0, 1);
+}
+
+.tc-white {
+    color: #FFFFFF !important;
 }
